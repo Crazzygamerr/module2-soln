@@ -1,0 +1,76 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  padding: 5px;
+}
+
+@media (min-width: 992px) {
+  .res {
+    float: left;
+    position: relative;
+    width: 32%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: grey;
+    margin: 5px;
+  }
+}
+
+@media (min-width: 768px) AND (max-width: 991px) {
+  .res {
+    float: left;
+    position: relative;
+    width: 48%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: grey;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  #third {
+    width: 98%
+  }
+}
+
+@media (max-width: 767px) {
+  .res {
+    float: left;
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: grey;
+    margin-bottom: 10px;
+  }
+}
+
+.item {
+	position: absolute;
+	top: 0;
+  right: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#one {
+  background-color: red;
+  color: white;
+}
+
+#two {
+  background-color: green;
+  color: white;
+}
+
+#three {
+  background-color: blue;
+  color: white;
+}
+
+p {
+  padding: 40px 10px 10px 10px;
+}
